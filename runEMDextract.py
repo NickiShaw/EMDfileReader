@@ -1,7 +1,7 @@
 from PIL import Image
 import matplotlib.pyplot as plt
 import cv2
-from readEMDv6 import *
+from Functions import *
 
 # Need to fix these names to be more general/pick columns.
 filter = ["Optics.Apertures.Aperture-1.Diameter", "Optics.Apertures.Aperture-2.Diameter",
